@@ -6,8 +6,13 @@ const reservingMonths= getActualMonths();
 console.log(reservingMonths);
 const bot = new TeleBot({
    token: TOKEN,
-   polling: {  
-   },
+//    polling: {  
+//    },
+   webhook: { 
+    url: 'https://telegram-shop-bot2.herokuapp.com/',
+    host: '0.0.0.0',
+    port: process.env.PORT, 
+},
    usePlugins: ['askUser']
 });
 console.log(bot);
