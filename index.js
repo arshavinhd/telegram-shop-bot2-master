@@ -19,7 +19,7 @@ bot.on([/\/start/i, /hello/i, /Головне меню/i], msg => {
         ["Доставка"],
         ["Резерв столика"]
     ], {resize: false, once: true});
-    return bot.sendMessage(msg.from.id, 'Виберіть необхідний Вам пункт меню', {replyMarkup});
+    return bot.sendMessage(msg.from.id, 'Виберіть необхідний Вам пункт меню:', {replyMarkup});
 });
 
 bot.on([/Меню/i, /Menu/i], msg => {
