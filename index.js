@@ -9,7 +9,7 @@ const bot = new TeleBot({
 //    polling: {  
 //    },
    webhook: { 
-    url: 'https://telegram-shop-bot2.herokuapp.com/',
+    url: 'https://telegram-shop-bot2-master.herokuapp.com/',
     host: '0.0.0.0',
     port: process.env.PORT, 
 },
