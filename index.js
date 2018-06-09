@@ -1,7 +1,7 @@
 const TeleBot = require('telebot');
 const {getActualMonths, getAllDaysForMonth} = require('./date.js');
 const {getAllProducts} = require('./getData.js');
-const TOKEN= '432228449:AAGJVVjO614XYCysGkajiRjNtqgsjXPqSKM';
+const TOKEN= '573464131:AAGqZhjgy6F_oVNAst7RXOtgfddcNHbTMbw';
 const reservingMonths= getActualMonths();
 console.log(reservingMonths);
 const bot = new TeleBot({
